@@ -1,0 +1,25 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- mood_great
+- premium_due
+responses:
+  utter_greet:
+  - text: Hello there!
+  utter_premium_due:
+  - text: Your premium due is Rs.10000
+actions:
+- mood_great
+- greet
+- yes it helped
+- welcome
+- premium_due
+- did that help
+- any other info
+- no it did not help
+- goodbye
+- bot_challenge
+- utter_greet
+- utter_premium_due
